@@ -9,11 +9,6 @@
 WiFiClient espClient;
 PubSubClient client(espClient);
 
-long lastMsg = 0;
-char msg[50];
-int value = 0;
-
-
 void setup() {
   Serial.begin(115200);
    
